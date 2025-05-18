@@ -398,8 +398,8 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '关于 LibreTV',
-                link: 'https://github.com/LibreSpark/LibreTV'
+                text: '关于 八九影视',
+                link: ' '
             },
             {
                 text: '问题反馈',
@@ -411,7 +411,7 @@ function initPlayer(videoUrl, sourceCode) {
         video: {
             url: videoUrl,
             type: 'hls',
-            pic: 'image/nomedia.png', // 设置视频封面图
+            pic: 'image/', // 设置视频封面图
             customType: {
                 hls: function(video, player) {
                     // 清理之前的HLS实例
