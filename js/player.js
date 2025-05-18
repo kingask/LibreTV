@@ -411,7 +411,7 @@ function initPlayer(videoUrl, sourceCode) {
         video: {
             url: videoUrl,
             type: 'hls',
-            pic: 'image/', // 设置视频封面图
+            pic: '', // 设置视频封面图
             customType: {
                 hls: function(video, player) {
                     // 清理之前的HLS实例
